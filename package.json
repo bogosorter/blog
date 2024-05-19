@@ -2,6 +2,7 @@
   "name": "blog",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://bogosorter.github.io/blog/",
   "dependencies": {
     "@m7kra/color-theme": "^1.0.1",
     "@testing-library/jest-dom": "^5.17.0",

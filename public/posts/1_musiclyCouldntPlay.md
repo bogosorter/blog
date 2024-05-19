@@ -1,6 +1,6 @@
 Sometimes Musicly won't play a track and give you a message like this:
 
-`Couldn't play track. Click for more info. Track path: /home/m7kra/test.mp3`
+`Couldn't play track. Click for more info. Track path: /home/bogosorter/test.mp3`
 
 This might happen for two different reasons:
 

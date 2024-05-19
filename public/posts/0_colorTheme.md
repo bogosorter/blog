@@ -61,8 +61,8 @@ function ChildComponent2() {
 };
 ```
 
-The package's source code is available on [GitHub](https://github.com/m7kra/color-theme/). To test it out, you can use this very website: you'll find a button on the top right corner that lets you change the theme.
+The package's source code is available on [GitHub](https://github.com/bogosorter/color-theme/). To test it out, you can use this very website: you'll find a button on the top right corner that lets you change the theme.
 
 Oh, by the way, Merry Christmas!
 
-M7kra
+Bogosorter

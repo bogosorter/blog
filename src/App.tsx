@@ -19,8 +19,8 @@ function App() {
     return (
         <div id='app' className={`${theme}-theme`}>
             <Header
-                title="M7kra's Blog"
-                github='https://github.com/m7kra/blog'
+                title="Bogosorter's Blog"
+                github='https://github.com/bogosorter/blog'
                 logoLight={<img src={logo} height={24} alt='' />}
                 logoDark={<img src={logo} height={24} alt='' />}
             />
