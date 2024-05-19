@@ -20,7 +20,7 @@ export default function Post({ post } : { post: PostType }) {
 
     return <div id='post' className='container-fluid'>
         <div className='row align-items-center justify-content-center'>
-            <div className='col-xl-6 col-lg-7 col-md-9'>
+            <div className='col-xl-5 col-lg-6 col-md-9'>
                 <div className='vertical-spacer-100' />
                 <img id='post-image' src={image} alt='' />
                 <h1 id='post-title'>{post.title}</h1>

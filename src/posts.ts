@@ -25,6 +25,14 @@ const posts: Post[] = [
         description: 'A brief explanation',  
         darkThemeImage: './images/musiclyDark.jpg',
         lightThemeImage: './images/musiclyLight.jpg'
+    }, {
+        id: 2,
+        title: 'Musicly v0.5.0',
+        date: new Date(2024, 4, 19),
+        file: './posts/2_musicly_v0.5.0.md',
+        description: 'Musicly\' last update',  
+        darkThemeImage: './images/musiclyDark.jpg',
+        lightThemeImage: './images/musiclyLight.jpg'
     }
 ];
 

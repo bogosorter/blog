@@ -11,7 +11,7 @@ export default function Home() {
         <Cover />
         <div id='posts' className='container-fluid'>
             <div className='row align-items-center justify-content-center'>
-                <div className='col-xl-6 col-lg-8 col-md-10'>
+                <div className='col-xl-5 col-lg-6 col-md-9'>
                     {p.map(post => <PostPreview post={post} key={nanoid()} />)}
                     <div className='vertical-spacer-80' />
                 </div>
