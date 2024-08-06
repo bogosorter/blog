@@ -119,7 +119,7 @@ function App() {
                         <Post>
                             <h1># Assassínio</h1>
                             <p>Um! Dois! Três! Com três fortes golpes desfigurei-a por completo. Observei-a enquanto a sua vida se esvaía. Aqui e acolá, algumas partes do seu corpo ainda estrebuchavam, como se possuídas por algo. Vendo terminar assim uma vida, um sentimento de culpa começou a apoderar-se de mim. Deveria ter tido piedade?</p>
-                            <p>Quando os últimos movimentos findaram, limpei o local do crime metodicamente. Primeiro recolhi os pedaços do corpo num saco de lixo. Depois, cuidadosamente, limpei as marcas de sangue nas paredes do chuveiro com papel higiénico. Por fim, limpei com água abundante a arma do crime, para não deixar indícios. Desliguei as luzes e abandonei o local.</p>
+                            <p>Quando os últimos movimentos findaram, limpei o local do crime metodicamente. Primeiro recolhi os pedaços do corpo num saco de lixo. Depois, cuidadosamente, raspei as marcas de sangue das paredes do chuveiro com papel higiénico. Por fim, lavei com água abundante a arma do crime, para não deixar indícios. Desliguei as luzes e abandonei o local.</p>
                             <p>Assim termina a vida de uma centopeia.</p>
                         </Post>
 
