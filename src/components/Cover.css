@@ -28,3 +28,11 @@
     right: 50px;
     width: 300px;
 }
+
+@media (max-width: 768px) {
+    #cover-image {
+        width: 200px;
+        bottom: 50px;
+        right: 20px;
+    }
+}
