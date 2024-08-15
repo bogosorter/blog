@@ -1,11 +1,11 @@
-# Personality in your code
+> I'm aware that I'm advertising an app I built. I hope that, since Elementary is an open-source app, you'll excuse me. If you'd like me to take the post down, though, I'll do it. Thanks for your patience!
 
-I've been programming for a few years now, and every once in a while, this question pops up: how much personality should my program have?
+Hi there!
 
-The first time I remember thinking about this was shortly after I released Musicly. I was showing my dad around the app, and at some point, he noticed a joke I'd made on the search bar. He thought that I should remove it since jokes lack professionalism and could convey the wrong impression to the users. Sure enough, I took it out.
+I loved Typora's editing experience, but it has since become a paid app... On the lookout for an alternative, I used Marktext - an open-source app - for a while, but it proved itself to be somewhat buggy. After many more frustrated attempts, I turned to VS Code. Though not aesthetically pleasing, VS Code was reliable and met my needs.
 
-I kept on programming, and whenever the choice of a humorous sentence or feature came up, I used to stick to the safe and dull side of professionalism. And then I came across this [video](https://www.youtube.com/watch?v=iSg0F3hwMnE&t) on Computerphile which totally changed my mind on the subject. Marco Arment's argument that indie developpers should embrace their personality resonated with me and made me proud to add a personal touch to my apps.
+Then, I learnt that VS Code's core editor, Monaco, was open-source. That's when the idea of adapting Monaco to fit my needs came to be. That's how [Elementary](https://bogosorter.github.io/elementary/) was born. The core of Elementary is based on Monaco and should provide a reliable and bug-free experience. I did, however, change all of the editor's styles for aesthetic's sake, and built the logic that makes this a standalone app. Elementary uses electron and react, put together by the electron-react-boilerplate.
 
-Today, I firmly stand on the personal side of the discussion. It's fair to say that this video has shaped my behavior in the programming world. I hope you give it a try!
+[This](https://bogosorter.github.io/elementary/) is Elementary's website. You can download it [here](https://bogosorter.github.io/elementary/#download)
 
-P.S: There are three other videos on Computerphile with Marco Arment. All are very interesting and funny to watch - I can't help but love this guy! [#1](https://www.youtube.com/watch?v=yVRtJbXQsL8) [#2](https://www.youtube.com/watch?v=QH1XF0tOFsQ) [#3](https://www.youtube.com/watch?v=Xy5pzN-wLxg)
+I hope you'll become interested in the project and give it a try!

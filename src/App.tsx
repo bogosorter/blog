@@ -26,6 +26,7 @@ import mikra from './images/mikra.jpg';
 import namur from './images/namur.jpg';
 import organ from './images/organ.jpg';
 import oven from './images/oven.jpg';
+import physalis from './images/physalis.jpg';
 import psousa from './images/psousa.jpg';
 import rainbow from './images/rainbow.jpg';
 import river from './images/river.jpg';
@@ -58,6 +59,11 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
+
+                        <Separator />
+                        <Reference reference='physalis' />
+                        <Image src={physalis} setFullscreen={setFullscreen} />
+                        <Metadata location='Aljezur' />
 
                         <Separator />
                         <Reference reference='personality' />
