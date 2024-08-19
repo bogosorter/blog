@@ -187,7 +187,7 @@ function App() {
                         <Separator />
                         <Reference reference='oven' />
                         <Image src={oven} setFullscreen={setFullscreen} />
-                        <Metadata location='Madeira' />
+                        <Metadata location='Aljezur' />
 
                         <Separator />
                         <Reference reference='cave' />
