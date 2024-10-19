@@ -8,6 +8,7 @@ import Metadata from './components/Metadata';
 import Separator from './components/Separator';
 import Fullscreen from './components/Fullscreen';
 import Reference from './components/Reference';
+
 import arrifana from './images/arrifana.jpg';
 import blood from './images/blood.jpg';
 import bridge from './images/bridge.jpg';
@@ -23,10 +24,10 @@ import graffiti from './images/graffiti.jpg';
 import mail from './images/mail.jpg';
 import math from './images/math.jpg';
 import mikra from './images/mikra.jpg';
+import moledo from './images/moledo.jpg';
 import namur from './images/namur.jpg';
 import organ from './images/organ.jpg';
 import oven from './images/oven.jpg';
-import physalis from './images/physalis.jpg';
 import psousa from './images/psousa.jpg';
 import rainbow from './images/rainbow.jpg';
 import river from './images/river.jpg';
@@ -61,9 +62,9 @@ function App() {
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
 
                         <Separator />
-                        <Reference reference='physalis' />
-                        <Image src={physalis} setFullscreen={setFullscreen} />
-                        <Metadata location='Aljezur' />
+                        <Reference reference='moledo' />
+                        <Image src={moledo} setFullscreen={setFullscreen} />
+                        <Metadata location='Moledo' />
 
                         <Separator />
                         <Reference reference='personality' />
