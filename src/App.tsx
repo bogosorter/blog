@@ -9,6 +9,7 @@ import Separator from './components/Separator';
 import Fullscreen from './components/Fullscreen';
 import Reference from './components/Reference';
 
+import ametade from './images/ametade.jpg';
 import arrifana from './images/arrifana.jpg';
 import blood from './images/blood.jpg';
 import bridge from './images/bridge.jpg';
@@ -34,6 +35,7 @@ import river from './images/river.jpg';
 import sand from './images/sand.jpg';
 import sea from './images/sea.jpg';
 import slit from './images/slit.jpg';
+import tansky from './images/tansky.jpg';
 import train from './images/train.jpg';
 import umbrella from './images/umbrella.jpg';
 import winnenden from './images/winnenden.jpeg';
@@ -60,6 +62,17 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
+
+                        <Separator />
+                        <Reference reference='ametade' />
+                        <Image src={ametade} setFullscreen={setFullscreen} aspectRatio={14/16} />
+                        <Metadata location="Covão d'Ametade" author='Mr. P' />
+
+
+                        <Separator />
+                        <Reference reference='tansky' />
+                        <Image src={tansky} setFullscreen={setFullscreen} aspectRatio={14/16} />
+                        <Metadata location='Manteigas' author='Mr. P' />
 
                         <Separator />
                         <Reference reference='moledo' />
@@ -188,7 +201,7 @@ function App() {
                         <Separator />
                         <Reference reference='oven' />
                         <Image src={oven} setFullscreen={setFullscreen} />
-                        <Metadata location='Aljezur' />
+                        <Metadata location='Aljezur' author='Mr. M' />
 
                         <Separator />
                         <Reference reference='cave' />
@@ -213,7 +226,7 @@ function App() {
                         <Separator />
                         <Reference reference='mikra' />
                         <Image src={mikra} setFullscreen={setFullscreen} aspectRatio={16/9} />
-                        <Metadata location='Aljezur' />
+                        <Metadata location='Aljezur' author='Mr. M' />
 
                         <Separator />
                         <Reference reference='mail' />

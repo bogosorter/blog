@@ -1,7 +1,7 @@
-import { GeoAlt, Globe2 } from 'react-bootstrap-icons';
+import { GeoAlt, Globe2, CCircle } from 'react-bootstrap-icons';
 import './Metadata.css';
 
-export default function Metadata({ location, date, language }: { location?: string, date?: Date, language?: string }) {
+export default function Metadata({ location, date, language, author }: { location?: string, date?: Date, language?: string, author?: string }) {
     return (
         <div className='metadata'>
             {location &&
@@ -22,6 +22,13 @@ export default function Metadata({ location, date, language }: { location?: stri
                     <Globe2 size={18} />
                     <div style={{ width: '12px' }} />
                     {language}
+                </div>
+            }
+            {author &&
+                <div className='author'>
+                    <CCircle size={18} />
+                    <div style={{ width: '12px' }} />
+                    {author}
                 </div>
             }
         </div>
