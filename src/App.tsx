@@ -65,13 +65,13 @@ function App() {
 
                         <Separator />
                         <Reference reference='ametade' />
-                        <Image src={ametade} setFullscreen={setFullscreen} aspectRatio={14/16} />
+                        <Image src={ametade} setFullscreen={setFullscreen} />
                         <Metadata location="Covão d'Ametade" author='Mr. P' />
 
 
                         <Separator />
                         <Reference reference='tansky' />
-                        <Image src={tansky} setFullscreen={setFullscreen} aspectRatio={14/16} />
+                        <Image src={tansky} setFullscreen={setFullscreen} />
                         <Metadata location='Manteigas' author='Mr. P' />
 
                         <Separator />
@@ -201,7 +201,7 @@ function App() {
                         <Separator />
                         <Reference reference='oven' />
                         <Image src={oven} setFullscreen={setFullscreen} />
-                        <Metadata location='Aljezur' author='Mr. M' />
+                        <Metadata location='Aljezur' author='M. Barbosa' />
 
                         <Separator />
                         <Reference reference='cave' />
@@ -226,7 +226,7 @@ function App() {
                         <Separator />
                         <Reference reference='mikra' />
                         <Image src={mikra} setFullscreen={setFullscreen} aspectRatio={16/9} />
-                        <Metadata location='Aljezur' author='Mr. M' />
+                        <Metadata location='Aljezur' author='M. Barbosa' />
 
                         <Separator />
                         <Reference reference='mail' />
