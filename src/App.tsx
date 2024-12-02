@@ -11,6 +11,7 @@ import Reference from './components/Reference';
 
 import ametade from './images/ametade.jpg';
 import arrifana from './images/arrifana.jpg';
+import balloons from './images/balloons.jpg';
 import blood from './images/blood.jpg';
 import bridge from './images/bridge.jpg';
 import cave from './images/cave.jpg';
@@ -62,6 +63,11 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
+
+                        <Separator />
+                        <Reference reference='balloons' />
+                        <Image src={balloons} setFullscreen={setFullscreen} />
+                        <Metadata location="Instituto Superior Técnico" />
 
                         <Separator />
                         <Reference reference='ametade' />
