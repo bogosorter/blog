@@ -39,6 +39,7 @@ import slit from './images/slit.jpg';
 import tansky from './images/tansky.jpg';
 import train from './images/train.jpg';
 import umbrella from './images/umbrella.jpg';
+import underwater from './images/underwater.jpg';
 import winnenden from './images/winnenden.jpeg';
 import wood from './images/wood.jpg';
 import './App.css';
@@ -63,6 +64,11 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
+
+                        <Separator />
+                        <Reference reference='underwater' />
+                        <Image src={underwater} setFullscreen={setFullscreen} />
+                        <Metadata location="Coimbra" />
 
                         <Separator />
                         <Reference reference='balloons' />
