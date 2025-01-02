@@ -69,12 +69,7 @@ function App() {
                         <Reference reference='underwater' />
                         <Image src={underwater} setFullscreen={setFullscreen} />
                         <Metadata location="Coimbra" />
-
-                        <Separator />
-                        <Reference reference='balloons' />
-                        <Image src={balloons} setFullscreen={setFullscreen} />
-                        <Metadata location="Instituto Superior Técnico" />
-
+                        
                         <Separator />
                         <Reference reference='ametade' />
                         <Image src={ametade} setFullscreen={setFullscreen} />
