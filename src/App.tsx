@@ -69,7 +69,7 @@ function App() {
                             language='en'
                         />
                         <Post>
-                            <p>A short while ago, This American Life announced the release of their premium subscription, This American Life Partners. They missed a wonderful opportunity to call it This American Dream.</p>
+                            <p>A short while ago, <em>This American Life</em> announced the release of their premium subscription, <em>This American Life Partners</em>. They missed a wonderful opportunity to call it <em>This American Dream</em>.</p>
                         </Post>
 
                         <Separator />
