@@ -11,7 +11,6 @@ import Reference from './components/Reference';
 
 import ametade from './images/ametade.jpg';
 import arrifana from './images/arrifana.jpg';
-import balloons from './images/balloons.jpg';
 import blood from './images/blood.jpg';
 import bridge from './images/bridge.jpg';
 import cave from './images/cave.jpg';
@@ -65,11 +64,19 @@ function App() {
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
 
+                        <Metadata
+                            date={new Date(2025, 0, 2)}
+                            language='en'
+                        />
+                        <Post>
+                            <p>A short while ago, This American Life announced the release of their premium subscription, This American Life Partners. They missed a wonderful opportunity to call it This American Dream.</p>
+                        </Post>
+
                         <Separator />
                         <Reference reference='underwater' />
                         <Image src={underwater} setFullscreen={setFullscreen} />
                         <Metadata location="Coimbra" />
-                        
+
                         <Separator />
                         <Reference reference='ametade' />
                         <Image src={ametade} setFullscreen={setFullscreen} />
