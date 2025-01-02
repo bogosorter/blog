@@ -22,6 +22,8 @@ import dawn from './images/dawn.jpg';
 import feup from './images/feup.jpg';
 import gaspar from './images/gaspar.jpg';
 import graffiti from './images/graffiti.jpg';
+import headphones from './images/headphones.jpg';
+import lebkuchen from './images/lebkuchen.jpg';
 import mail from './images/mail.jpg';
 import math from './images/math.jpg';
 import mikra from './images/mikra.jpg';
@@ -34,6 +36,7 @@ import rainbow from './images/rainbow.jpg';
 import river from './images/river.jpg';
 import sand from './images/sand.jpg';
 import sea from './images/sea.jpg';
+import seashell from './images/seashell.jpg';
 import slit from './images/slit.jpg';
 import tansky from './images/tansky.jpg';
 import train from './images/train.jpg';
@@ -64,6 +67,12 @@ function App() {
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
 
+                        <Separator />
+                        <Reference reference='seashell' />
+                        <Image src={seashell} setFullscreen={setFullscreen} />
+                        <Metadata location="Moledo" />
+
+                        <Separator />
                         <Metadata
                             date={new Date(2025, 0, 2)}
                             language='en'
@@ -73,9 +82,19 @@ function App() {
                         </Post>
 
                         <Separator />
+                        <Reference reference='lebkuchen' />
+                        <Image src={lebkuchen} setFullscreen={setFullscreen} />
+                        <Metadata location="Caminha" author='Ms. T' />
+
+                        <Separator />
                         <Reference reference='underwater' />
                         <Image src={underwater} setFullscreen={setFullscreen} />
                         <Metadata location="Coimbra" />
+
+                        <Separator />
+                        <Reference reference='headphones' />
+                        <Image src={headphones} setFullscreen={setFullscreen} />
+                        <Metadata location="FEUP" />
 
                         <Separator />
                         <Reference reference='ametade' />
