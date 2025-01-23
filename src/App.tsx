@@ -16,6 +16,7 @@ import bridge from './images/bridge.jpg';
 import cave from './images/cave.jpg';
 import cemetery from './images/cemetery.jpg';
 import chestnuts from './images/chestnuts.jpg';
+import clouds from './images/clouds.jpg';
 import construction from './images/construction.jpg';
 import contrast from './images/contrast.jpg';
 import dawn from './images/dawn.jpg';
@@ -37,11 +38,13 @@ import river from './images/river.jpg';
 import sand from './images/sand.jpg';
 import sea from './images/sea.jpg';
 import seashell from './images/seashell.jpg';
+import skycat from './images/skycat.jpg';
 import slit from './images/slit.jpg';
 import tansky from './images/tansky.jpg';
 import train from './images/train.jpg';
 import umbrella from './images/umbrella.jpg';
 import underwater from './images/underwater.jpg';
+import walk from './images/walk.jpg';
 import winnenden from './images/winnenden.jpeg';
 import wood from './images/wood.jpg';
 import './App.css';
@@ -60,7 +63,7 @@ function App() {
     }, []);
 
     return (
-        <div id="app">
+        <div id='app'>
             <Cover />
             <Header />
             <Container fluid>
@@ -68,11 +71,37 @@ function App() {
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
 
                         <Separator />
-                        <Reference reference='seashell' />
-                        <Image src={seashell} setFullscreen={setFullscreen} />
-                        <Metadata location="Moledo" />
+                        <Reference reference='404' />
+                        <Metadata
+                            date={new Date(2025, 0, 23)}
+                            language='en'
+                        />
+                        <Post>
+                            <p>Porto's public bus company now has a new route numbered 404. My friends aren't as delighted by this number as I am...</p>
+                        </Post>
 
                         <Separator />
+                        <Reference reference='clouds' />
+                        <Image src={clouds} setFullscreen={setFullscreen} />
+                        <Metadata location='Ponta da Atalaia' />
+
+                        <Separator />
+                        <Reference reference='walk' />
+                        <Image src={walk} setFullscreen={setFullscreen} />
+                        <Metadata location='Aljezur' />
+
+                        <Separator />
+                        <Reference reference='skycat' />
+                        <Image src={skycat} setFullscreen={setFullscreen} />
+                        <Metadata location='Aljezur' />
+
+                        <Separator />
+                        <Reference reference='seashell' />
+                        <Image src={seashell} setFullscreen={setFullscreen} />
+                        <Metadata location='Moledo' />
+
+                        <Separator />
+                        <Reference reference='tal' />
                         <Metadata
                             date={new Date(2025, 0, 2)}
                             language='en'
@@ -84,17 +113,17 @@ function App() {
                         <Separator />
                         <Reference reference='lebkuchen' />
                         <Image src={lebkuchen} setFullscreen={setFullscreen} />
-                        <Metadata location="Caminha" author='Ms. T' />
+                        <Metadata location='Caminha' author='Ms. T' />
 
                         <Separator />
                         <Reference reference='underwater' />
                         <Image src={underwater} setFullscreen={setFullscreen} />
-                        <Metadata location="Coimbra" />
+                        <Metadata location='Coimbra' />
 
                         <Separator />
                         <Reference reference='headphones' />
                         <Image src={headphones} setFullscreen={setFullscreen} />
-                        <Metadata location="FEUP" />
+                        <Metadata location='FEUP' />
 
                         <Separator />
                         <Reference reference='ametade' />
