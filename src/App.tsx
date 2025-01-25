@@ -11,6 +11,7 @@ import Reference from './components/Reference';
 
 import ametade from './images/ametade.jpg';
 import arrifana from './images/arrifana.jpg';
+import blocks from './images/blocks.jpg';
 import blood from './images/blood.jpg';
 import bridge from './images/bridge.jpg';
 import cave from './images/cave.jpg';
@@ -69,6 +70,17 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
+
+                        <Separator />
+                        <Reference reference='blocks' />
+                        <Image src={blocks} setFullscreen={setFullscreen} />
+                        <Metadata
+                            date={new Date(2025, 0, 25)}
+                            language='en'
+                        />
+                        <Post>
+                            <p>Working on a new app. Placeholder name is <em>Blocks</em>.</p>
+                        </Post>
 
                         <Separator />
                         <Reference reference='404' />
