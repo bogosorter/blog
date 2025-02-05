@@ -72,6 +72,18 @@ function App() {
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
 
                         <Separator />
+                        <Reference reference='404' />
+                        <Metadata
+                            date={new Date(2025, 1, 5)}
+                            language='en'
+                        />
+                        <Post>
+                            <h1># Spy's work is dull</h1>
+                            <p>I wrote these few lines for a programming exercise. I must admit they make me quite proud:</p>
+                            <p>"As a spy, your work involves dull tasks like car chases or attending secret meetings. Every once in a while, though, you get an interesting job which requires you to program."</p>
+                        </Post>
+
+                        <Separator />
                         <Reference reference='blocks' />
                         <Image src={blocks} setFullscreen={setFullscreen} />
                         <Metadata
