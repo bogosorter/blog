@@ -14,6 +14,7 @@ import arrifana from './images/arrifana.jpg';
 import blocks from './images/blocks.jpg';
 import blood from './images/blood.jpg';
 import bridge from './images/bridge.jpg';
+import cannon from './images/cannon.jpg';
 import cave from './images/cave.jpg';
 import cemetery from './images/cemetery.jpg';
 import chestnuts from './images/chestnuts.jpg';
@@ -24,12 +25,14 @@ import dawn from './images/dawn.jpg';
 import feup from './images/feup.jpg';
 import gaspar from './images/gaspar.jpg';
 import graffiti from './images/graffiti.jpg';
+import grave from './images/grave.jpg';
 import headphones from './images/headphones.jpg';
 import lebkuchen from './images/lebkuchen.jpg';
 import mail from './images/mail.jpg';
 import math from './images/math.jpg';
 import mikra from './images/mikra.jpg';
 import moledo from './images/moledo.jpg';
+import monastry from './images/monastry.jpg';
 import namur from './images/namur.jpg';
 import organ from './images/organ.jpg';
 import oven from './images/oven.jpg';
@@ -45,7 +48,6 @@ import tansky from './images/tansky.jpg';
 import train from './images/train.jpg';
 import umbrella from './images/umbrella.jpg';
 import underwater from './images/underwater.jpg';
-import walk from './images/walk.jpg';
 import winnenden from './images/winnenden.jpeg';
 import wood from './images/wood.jpg';
 import './App.css';
@@ -70,6 +72,21 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
+
+                        <Separator />
+                        <Reference reference='cannon' />
+                        <Image src={cannon} setFullscreen={setFullscreen} />
+                        <Metadata location='Cerveira' />
+
+                        <Separator />
+                        <Reference reference='monastry' />
+                        <Image src={monastry} setFullscreen={setFullscreen} />
+                        <Metadata location='Mosteiro de Sanfins' />
+
+                        <Separator />
+                        <Reference reference='grave' />
+                        <Image src={grave} setFullscreen={setFullscreen} />
+                        <Metadata location='Mosteiro de Sanfins' />
 
                         <Separator />
                         <Reference reference='404' />
@@ -108,11 +125,6 @@ function App() {
                         <Reference reference='clouds' />
                         <Image src={clouds} setFullscreen={setFullscreen} />
                         <Metadata location='Ponta da Atalaia' />
-
-                        <Separator />
-                        <Reference reference='walk' />
-                        <Image src={walk} setFullscreen={setFullscreen} />
-                        <Metadata location='Aljezur' />
 
                         <Separator />
                         <Reference reference='skycat' />
