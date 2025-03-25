@@ -74,6 +74,16 @@ function App() {
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
 
                         <Separator />
+                        <Reference reference='floors' />
+                        <Metadata
+                            date={new Date(2025, 2, 25)}
+                            language='en'
+                        />
+                        <Post>
+                            <p>I just realized that floors in a building are zero-indexed - ground floor being zero. No more Matlab for civil engineers, I guess...</p>
+                        </Post>
+
+                        <Separator />
                         <Reference reference='cannon' />
                         <Image src={cannon} setFullscreen={setFullscreen} />
                         <Metadata location='Cerveira' />
