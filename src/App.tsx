@@ -36,6 +36,7 @@ import monastry from './images/monastry.jpg';
 import namur from './images/namur.jpg';
 import organ from './images/organ.jpg';
 import oven from './images/oven.jpg';
+import pine from './images/pine.jpg';
 import psousa from './images/psousa.jpg';
 import rainbow from './images/rainbow.jpg';
 import river from './images/river.jpg';
@@ -72,6 +73,11 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
+
+                        <Separator />
+                        <Reference reference='pine' />
+                        <Image src={pine} setFullscreen={setFullscreen} />
+                        <Metadata location='FEUP' />
 
                         <Separator />
                         <Reference reference='floors' />
