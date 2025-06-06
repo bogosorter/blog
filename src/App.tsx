@@ -27,6 +27,7 @@ import gaspar from './images/gaspar.jpg';
 import graffiti from './images/graffiti.jpg';
 import grave from './images/grave.jpg';
 import headphones from './images/headphones.jpg';
+import herbs from './images/herbs.jpg';
 import lebkuchen from './images/lebkuchen.jpg';
 import mail from './images/mail.jpg';
 import math from './images/math.jpg';
@@ -39,6 +40,7 @@ import oven from './images/oven.jpg';
 import pine from './images/pine.jpg';
 import psousa from './images/psousa.jpg';
 import rainbow from './images/rainbow.jpg';
+import raytracer from './images/raytracer.jpg';
 import river from './images/river.jpg';
 import sand from './images/sand.jpg';
 import sea from './images/sea.jpg';
@@ -73,6 +75,22 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
+
+                        <Separator />
+                        <Reference reference='herbs' />
+                        <Image src={herbs} setFullscreen={setFullscreen} />
+                        <Metadata location='Caminha' />
+
+                        <Separator />
+                        <Reference reference='raytracer' />
+                        <Image src={raytracer} setFullscreen={setFullscreen} />
+                        <Metadata
+                            date={new Date(2025, 5, 6)}
+                            language='en'
+                        />
+                        <Post>
+                            <p>Trying to shoot a few rays. It'll probably turn out to be another abandoned project, but it's been fun so far.</p>
+                        </Post>
 
                         <Separator />
                         <Reference reference='pine' />
