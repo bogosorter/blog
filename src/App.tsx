@@ -21,6 +21,7 @@ import chestnuts from './images/chestnuts.jpg';
 import clouds from './images/clouds.jpg';
 import construction from './images/construction.jpg';
 import contrast from './images/contrast.jpg';
+import cpu from './images/cpu.png';
 import dawn from './images/dawn.jpg';
 import feup from './images/feup.jpg';
 import gaspar from './images/gaspar.jpg';
@@ -77,6 +78,13 @@ function App() {
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
 
                         <Separator />
+                        <Reference reference='cpu' />
+                        <Image src={cpu} setFullscreen={setFullscreen} />
+                        <Post>
+                            Ubuntu produced this piece of art, <em>The Hardworking CPU</em>, on a day my computer was under serious pressure.
+                        </Post>
+
+                        <Separator />
                         <Reference reference='herbs' />
                         <Image src={herbs} setFullscreen={setFullscreen} />
                         <Metadata location='Caminha' />
@@ -89,7 +97,7 @@ function App() {
                             language='en'
                         />
                         <Post>
-                            <p>Trying to shoot a few rays. It'll probably turn out to be another abandoned project, but it's been fun so far.</p>
+                            Trying to shoot a few rays. It'll probably turn out to be another abandoned project, but it's been fun so far.
                         </Post>
 
                         <Separator />
@@ -104,7 +112,7 @@ function App() {
                             language='en'
                         />
                         <Post>
-                            <p>I just realized that floors in a building are zero-indexed - ground floor being zero. No more Matlab for civil engineers, I guess...</p>
+                            I just realized that floors in a building are zero-indexed - ground floor being zero. No more Matlab for civil engineers, I guess...
                         </Post>
 
                         <Separator />
@@ -142,7 +150,7 @@ function App() {
                             language='en'
                         />
                         <Post>
-                            <p>Working on a new app. Placeholder name is <em>Blocks</em>.</p>
+                            Working on a new app. Placeholder name is <em>Blocks</em>.
                         </Post>
 
                         <Separator />
@@ -152,7 +160,7 @@ function App() {
                             language='en'
                         />
                         <Post>
-                            <p>Porto's public bus company now has a new route numbered 404. My friends aren't as delighted by this number as I am...</p>
+                            Porto's public bus company now has a new route numbered 404. My friends aren't as delighted by this number as I am...
                         </Post>
 
                         <Separator />
@@ -177,7 +185,7 @@ function App() {
                             language='en'
                         />
                         <Post>
-                            <p>A short while ago, <em>This American Life</em> announced the release of their premium subscription, <em>This American Life Partners</em>. They missed a wonderful opportunity to call it <em>This American Dream</em>.</p>
+                            A short while ago, <em>This American Life</em> announced the release of their premium subscription, <em>This American Life Partners</em>. They missed a wonderful opportunity to call it <em>This American Dream</em>.
                         </Post>
 
                         <Separator />
