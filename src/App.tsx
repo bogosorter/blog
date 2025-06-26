@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Cover from './components/Cover';
 import Post from './components/Post';
 import Image from './components/Image';
+import Quote from './components/Quote';
 import Metadata from './components/Metadata';
 import Separator from './components/Separator';
 import Fullscreen from './components/Fullscreen';
@@ -76,10 +77,13 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
-
                         <Separator />
                         <Reference reference='cpu' />
                         <Image src={cpu} setFullscreen={setFullscreen} />
+                        <Metadata
+                            date={new Date(2025, 5, 22)}
+                            language='en'
+                        />
                         <Post>
                             Ubuntu produced this piece of art, <em>The Hardworking CPU</em>, on a day my computer was under serious pressure.
                         </Post>
