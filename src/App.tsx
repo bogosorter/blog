@@ -4,7 +4,6 @@ import Header from './components/Header';
 import Cover from './components/Cover';
 import Post from './components/Post';
 import Image from './components/Image';
-import Quote from './components/Quote';
 import Metadata from './components/Metadata';
 import Separator from './components/Separator';
 import Fullscreen from './components/Fullscreen';
