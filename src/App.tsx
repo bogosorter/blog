@@ -36,6 +36,7 @@ import mikra from './images/mikra.jpg';
 import moledo from './images/moledo.jpg';
 import monastry from './images/monastry.jpg';
 import namur from './images/namur.jpg';
+import oldies from './images/oldies.jpg';
 import organ from './images/organ.jpg';
 import oven from './images/oven.jpg';
 import pine from './images/pine.jpg';
@@ -76,6 +77,17 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
+                        <Separator />
+                        <Reference reference='oldies' />
+                        <Image src={oldies} setFullscreen={setFullscreen} />
+                        <Metadata
+                            location='Príncipe Real'
+                            date={new Date(2025, 6, 26)}
+                        />
+                        <Post>
+                            Aqui se discutiram temas de sobeja importância, desde o jogo do Sporting nessa noite até gastar a reforma em BenficaTV, passando pela melhor forma de escolher um melão.
+                        </Post>
+
                         <Separator />
                         <Reference reference='cpu' />
                         <Image src={cpu} setFullscreen={setFullscreen} />
