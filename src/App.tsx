@@ -78,6 +78,39 @@ function App() {
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
                         <Separator />
+                        <Reference reference='hello-world' />
+                        <Metadata
+                            date={new Date(2025, 7, 2)}
+                            language='en'
+                        />
+                        <Post>
+                            <p>
+                                One of my many useless feuds concerns the spelling of "Hello, World!". For those unfamiliar,
+                                this sentence first appeared as an example on the iconic book <em>The C Programming Language</em>,
+                                which was used to teach C back in the time when books were used for those things. C was
+                                unreasonably successful, and the book became famous for its concise and effective examples.
+                            </p>
+                            <p>
+                                The sentence now comes in many shapes and colors: "Hello world!", "Hello World!", "Hello World",
+                                etc. Wikipedia titles its page "Hello, World!". It's impressive how many different ways there
+                                are of putting these two simple words together.
+                            </p>
+                            <p>
+                                My favorite one used to be "Hello World!". Then, about a year ago, I discovered that, in <em>The
+                                C Programming Language</em>, Brian Kernighan and Dennis Ritchie opted for "hello, world". I
+                                started by disliking this version. But, then, if we are going to keep using this phrase for the
+                                sake of tradition, we might as well honor the original one. These days, I can't suppress a twinge
+                                of irritation whenever I see another version. Ewwww, such ignorance...
+                            </p>
+                            <p>
+                                Unfortunately, this history is much too forgotten. Given the book's status as <em>the</em> book
+                                on one of the most successful programming languages ever to exist, and the phrase's place as the
+                                most famous sentence in the world of computer programs, "hello, world" ought to see its history
+                                a little more valued. So, if you can, spread the word!
+                            </p>
+                        </Post>
+
+                        <Separator />
                         <Reference reference='oldies' />
                         <Image src={oldies} setFullscreen={setFullscreen} />
                         <Metadata
