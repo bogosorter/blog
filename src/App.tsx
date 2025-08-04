@@ -103,7 +103,7 @@ function App() {
                                 of irritation whenever I see another version. Ewwww, such ignorance...
                             </p>
                             <p>
-                                Unfortunately, this history is much too forgotten. Given the book's status as <em>the</em> book
+                                Unfortunately, this story is much too forgotten. Given the book's status as <em>the</em> book
                                 on one of the most successful programming languages ever to exist, and the phrase's place as the
                                 most famous sentence in the world of computer programs, "hello, world" ought to see its history
                                 a little more valued. So, if you can, spread the word!
