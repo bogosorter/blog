@@ -17,6 +17,7 @@ import blocks from './images/blocks.jpg';
 import blood from './images/blood.jpg';
 import bridge from './images/bridge.jpg';
 import cannon from './images/cannon.jpg';
+import caracol from './images/caracol.jpg';
 import cave from './images/cave.jpg';
 import cemetery from './images/cemetery.jpg';
 import chestnuts from './images/chestnuts.jpg';
@@ -82,6 +83,19 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
+                        <Separator />
+                        <Reference reference='caracol' />
+                        <Image src={caracol} setFullscreen={setFullscreen} />
+                        <Metadata
+                            date={new Date(2025, 8, 3)}
+                            language='en'
+                        />
+                        <Post>
+                            <p>
+                                A while back, I <a href="https://bogosorter.github.io/blog/#raytracer">shared</a> an image of a grayscale taxi. That was the start of my very rudimentary raytracer (which, at the time, didn't even do so much as tracing the rays). The caption read "It'll probably turn out to be another abandoned project". But, alas, I got to a point where it's acceptable to make the raytracer public! It just took a translation from C into Rust... As a tribute to its slowness, the raytracer's name is <em>Caracol</em>. The repository can be found <a href="https://github.com/bogosorter/caracol">here</a>.
+                            </p>
+                        </Post>
+
                         <Separator />
                         <Reference reference='begijnhof' />
                         <Image src={begijnhof} setFullscreen={setFullscreen} />
