@@ -11,6 +11,8 @@ import Reference from './components/Reference';
 
 import ametade from './images/ametade.jpg';
 import arrifana from './images/arrifana.jpg';
+import begijnhof from './images/begijnhof.jpg';
+import bike from './images/bike.jpg';
 import blocks from './images/blocks.jpg';
 import blood from './images/blood.jpg';
 import bridge from './images/bridge.jpg';
@@ -26,6 +28,7 @@ import dawn from './images/dawn.jpg';
 import feup from './images/feup.jpg';
 import gaspar from './images/gaspar.jpg';
 import graffiti from './images/graffiti.jpg';
+import grandma from './images/grandma.jpg';
 import grave from './images/grave.jpg';
 import headphones from './images/headphones.jpg';
 import herbs from './images/herbs.jpg';
@@ -33,6 +36,7 @@ import lebkuchen from './images/lebkuchen.jpg';
 import mail from './images/mail.jpg';
 import math from './images/math.jpg';
 import mikra from './images/mikra.jpg';
+import mill from './images/mill.jpg';
 import moledo from './images/moledo.jpg';
 import monastry from './images/monastry.jpg';
 import namur from './images/namur.jpg';
@@ -50,6 +54,7 @@ import seashell from './images/seashell.jpg';
 import skycat from './images/skycat.jpg';
 import slit from './images/slit.jpg';
 import tansky from './images/tansky.jpg';
+import tervuren from './images/tervuren.jpg';
 import train from './images/train.jpg';
 import umbrella from './images/umbrella.jpg';
 import underwater from './images/underwater.jpg';
@@ -77,6 +82,41 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
+                        <Separator />
+                        <Reference reference='begijnhof' />
+                        <Image src={begijnhof} setFullscreen={setFullscreen} />
+                        <Metadata
+                            location="Leuven"
+                        />
+
+                        <Separator />
+                        <Reference reference='mill' />
+                        <Image src={mill} setFullscreen={setFullscreen} />
+                        <Metadata
+                            location="Leuven"
+                        />
+
+                        <Separator />
+                        <Reference reference='grandma' />
+                        <Image src={grandma} setFullscreen={setFullscreen} />
+                        <Metadata
+                            location="Grandma's"
+                        />
+
+                        <Separator />
+                        <Reference reference='bike' />
+                        <Image src={bike} setFullscreen={setFullscreen} />
+                        <Metadata
+                            location='Tervuren'
+                        />
+
+                        <Separator />
+                        <Reference reference='tervuren' />
+                        <Image src={tervuren} setFullscreen={setFullscreen} />
+                        <Metadata
+                            location='Tervuren'
+                        />
+
                         <Separator />
                         <Reference reference='hello-world' />
                         <Metadata
