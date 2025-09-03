@@ -1,4 +1,4 @@
-import { Container, Navbar, Nav } from 'react-bootstrap';
+import { Container, Navbar } from 'react-bootstrap';
 import './Header.css';
 
 export default function Header() {
@@ -13,12 +13,6 @@ export default function Header() {
             <Navbar.Brand href='https://bogosorter.github.io' className='d-flex'>
                 bogosorter
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls='navbar-collapse' />
-            <Navbar.Collapse id='navbar-collapse'>
-                <Nav className='w-100'>
-                    {/*<Nav.Link key={index} href={item.href}>{item.label}</Nav.Link>*/}
-                </Nav>
-            </Navbar.Collapse>
         </Container>
     </Navbar>
 }
