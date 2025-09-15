@@ -84,6 +84,21 @@ function App() {
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
                         <Separator />
+                        <Reference reference='rbt' />
+                        <Metadata
+                            date={new Date(2025, 8, 15)}
+                            language='en'
+                        />
+                        <Post>
+                            <p>
+                            Every once in a while, a person ascends to a level that we, mere mortals,
+                            can only dream about. Those extraordinary beings distinguish themselves by the
+                            audacity of their deeds or the warmth of their heart. I was honored to
+                            meet <a href='https://github.com/LuisGoncalves05'>LuisGoncalves05</a>, who recently took that path by <a href='https://github.com/LuisGoncalves05/Forest'>implementing a Red-Black Tree</a>.
+                            </p>
+                        </Post>
+                        
+                        <Separator />
                         <Reference reference='caracol' />
                         <Image src={caracol} setFullscreen={setFullscreen} />
                         <Metadata
