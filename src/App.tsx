@@ -28,6 +28,7 @@ import cpu from './images/cpu.png';
 import dawn from './images/dawn.jpg';
 import feup from './images/feup.jpg';
 import gaspar from './images/gaspar.jpg';
+import goal from './images/goal.jpg';
 import graffiti from './images/graffiti.jpg';
 import grandma from './images/grandma.jpg';
 import grave from './images/grave.jpg';
@@ -83,6 +84,25 @@ function App() {
             <Container fluid>
                 <Row className='justify-content-center'>
                     <Col xxl={5} xl={6} lg={7} md={8} sm={10}>
+                        <Separator />
+                        <Reference reference='sleep' />
+                        <Metadata
+                            date={new Date(2025, 8, 21)}
+                            language='pt'
+                        />
+                        <Post>
+                            <p>Havia um homem que queria saber como era adormecer. Queria descobrir como era a transição entre acordado e dormir, entre consciente e sonhar. Não era uma dúvida imperativa, nem mesmo uma questão relevante, mas, embora não gostasse de o admitir, começava a sentir-se frustrado por ainda não ter uma resposta.</p>
+                            <p>Um dia, quando estava ocupado com os seus pensamentos noturnos, o homem sentiu um peso pousar-se-lhe em cima. O corpo colava-se à cama, os pensamentos caíam no vazio. O homem sentiu então que desta vez ia descobrir. Uma leve excitação começou a despontar, mas foi rapidamente empurrada para o sítio de onde tinha vindo, para não espantar o sono. Por fim, aquilo que tanto esperava aconteceu, e o homem adormeceu. Adormeceu satisfeito, porque tinha esclarecido a sua questão.</p>
+                            <p>No dia seguinte levantou-se com energia, porque dormira uma noite muito agradável. A descoberta, porém, tinha-se misturado com os sonhos e evaporado da memória. Nessa noite, ao deitar, o homem sentiu-se um pouco incomodado por ainda não ter descoberto como era adormecer.</p>
+                        </Post>
+
+                        <Separator />
+                        <Reference reference='goal' />
+                        <Image src={goal} setFullscreen={setFullscreen} />
+                        <Metadata
+                            location="Castelões"
+                        />
+
                         <Separator />
                         <Reference reference='rbt' />
                         <Metadata
